@@ -1,4 +1,4 @@
-class Grocery:
+ class Grocery:
     def __init__(self):
         self.list=[]
 
@@ -27,6 +27,10 @@ class Grocery:
         print("your list:",*self.list,sep=",")
 if __name__=="__main__":
     g = Grocery()
+    print("1.view menu")
+    print("2.add")
+    print("3.remove")
+    print("4.exit")
     
 
     while True:
